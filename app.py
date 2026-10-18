@@ -13,7 +13,7 @@ st.caption("100% Offline Open-Weight AI (`llama3.2:3b`) • Zero API Cost • Fu
 # Sidebar Configuration & Sample Test Loader
 with st.sidebar:
     st.header("⚙️ Engine Settings")
-    model_choice = st.selectbox("Local Open-Weight Model", ["llama3.2:3b"], index=0)
+    model_choice = st.selectbox("Local Open-Weight Model", ["gemma2:2b", "llama3.2:3b"], index=0)
     st.success("🟢 Local Ollama Engine Active")
     st.markdown("---")
     st.subheader("🧪 Load Hinglish Test Samples")
